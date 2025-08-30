@@ -15,13 +15,14 @@ Permite recorrer un catálogo de productos, agregarlos al carrito, gestionar can
 
 ## Estructura del proyecto
 
+```bash
 ProyectoFinal+Cejas/
 ├─ index.html # Estructura principal
 ├─ css/styles.css # Estilos y layout
 ├─ js/app.js # Lógica de negocio
 ├─ data/products.json# Catálogo de productos
 └─ assets/ # Recursos opcionales (imágenes, íconos)
-
+```
 
 ## Ejecución
 1. **Servidor local (recomendado)**: abrir con *Live Server* de VSCode u otro servidor.  
