@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto Final – Simulador Ecommerce</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Toastify CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <h1 class="brand">Suplementos Pro</h1>
+      <div class="header__controls">
+        <input id="search" type="search" placeholder="Buscar producto…" aria-label="Buscar productos" />
+        <select id="sort" aria-label="Ordenar">
+          <option value="relevance">Relevancia</option>
+          <option value="price_asc">Precio: menor a mayor</option>
+          <option value="price_desc">Precio: mayor a menor</option>
+          <option value="name_asc">Nombre A–Z</option>
+          <option value="name_desc">Nombre Z–A</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container layout">
+    <section aria-labelledby="productos-title" class="products">
+      <h2 id="productos-title" class="section-title">Productos</h2>
+      <div id="product-list" class="product-grid" role="list"></div>
+    </section>
+
+    <aside class="cart" aria-labelledby="carrito-title">
+      <h2 id="carrito-title" class="section-title">Carrito</h2>
+      <div id="cart-items" class="cart-items" role="list"></div>
+      <div class="cart__footer">
+        <div class="cart__summary">
+          <span>Total:</span>
+          <strong id="cart-total">$0</strong>
+        </div>
+        <div class="cart__actions">
+          <button id="btn-clear" class="btn btn--ghost">Vaciar</button>
+          <button id="btn-checkout" class="btn">Finalizar compra</button>
+        </div>
+      </div>
+      <p class="hint">Tu carrito se guarda automáticamente.</p>
+    </aside>
+  </main>
+
+  <section class="checkout" id="checkout" aria-labelledby="checkout-title">
+    <div class="container">
+      <h2 id="checkout-title" class="section-title">Checkout</h2>
+      <form id="checkout-form" class="form">
+        <div class="form__row">
+          <label for="name">Nombre y apellido</label>
+          <input id="name" name="name" required placeholder="Ej: Mariano Cejas" />
+        </div>
+        <div class="form__row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="ejemplo@mail.com" />
+        </div>
+        <div class="form__row">
+          <label for="address">Dirección</label>
+          <input id="address" name="address" required placeholder="Calle 123, Don Torcuato" />
+        </div>
+        <div class="form__row">
+          <label for="payment">Medio de pago</label>
+          <select id="payment" name="payment" required>
+            <option value="mp">Mercado Pago</option>
+            <option value="tdc">Tarjeta de crédito</option>
+            <option value="tdd">Tarjeta de débito</option>
+            <option value="ef">Efectivo</option>
+          </select>
+        </div>
+        <div class="form__row form__row--inline">
+          <button type="reset" class="btn btn--ghost">Limpiar</button>
+          <button type="submit" class="btn">Pagar</button>
+        </div>
+        <p class="hint">Los datos del formulario se guardan para la próxima visita.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>Proyecto Final – JS | Simulador Ecommerce</small>
+    </div>
+  </footer>
+
+  <!-- Librerías externas -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

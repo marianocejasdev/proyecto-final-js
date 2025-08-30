@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Creatina Monohidrato 300g",
+      "price": 15999,
+      "category": "Rendimiento",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/CreatineM-300g.png?v=1718218487"
+    },
+    {
+      "id": "p2",
+      "name": "Whey Protein 1kg",
+      "price": 35999,
+      "category": "Proteína",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/PWP-2Lb-Cookies.png?v=1718218508&width=1100"
+    },
+    {
+      "id": "p3",
+      "name": "Omega 3 1200mg (90 caps)",
+      "price": 19999,
+      "category": "Salud",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/Omega3FishOil.png?v=1718218461&width=1100"
+    },
+    {
+      "id": "p4",
+      "name": "TNT-Dynamite - 240 Gr",
+      "price": 26999,
+      "category": "Energía",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/TNTDynamite-acai.png?v=1718218518&width=1100"
+    },
+    {
+      "id": "p5",
+      "name": "Vitamina C - 60 Cápsulas",
+      "price": 9999,
+      "category": "Salud",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/VitaminaC_sf_2.png?v=1726507301&width=375"
+    },
+    {
+      "id": "p6",
+      "name": "Citrato de Magnesio - 60 Cápsulas",
+      "price": 13999,
+      "category": "Minerales",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/CitratoMagnesio_36ac50e8-5662-4aa0-8b90-10edd71b1236.png?v=1720020323&width=1100"
+    },
+    {
+      "id": "p7",
+      "name": "BCAA 2000 - 120 Cápsulas",
+      "price": 22999,
+      "category": "Recuperación",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/BCAA2000.png?v=1718218471&width=1100"
+    },
+    {
+      "id": "p8",
+      "name": "MAll in One Multivitamin - 60 Cápsulas",
+      "price": 18999,
+      "category": "Salud",
+      "image": "https://starnutrition.com.ar/cdn/shop/files/STANUT004030.png?v=1719499932&width=1100"
+    }
+  ]
+}
